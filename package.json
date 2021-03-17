@@ -1,0 +1,17 @@
+{
+  "name": "testcafe_workshop_v1",
+  "version": "1.0.0",
+  "description": "This is my first approach to testcafe scripts",
+  "main": "index.js",
+  "scripts": {
+    "test-all-browsers": "testcafe all ./page_model/tests"
+  },
+  "author": "Silvia Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "spec": "^1.0.1",
+    "testcafe-reporter-spec": "^2.1.1",
+    "testcafe-reporter-spec-time": "^4.0.0"
+  }
+}
